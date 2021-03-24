@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ucb.bo.edu.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Componentes"
+            android:label="@string/btn1_menu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ResistenciaActivity"
+            android:label="@string/btn1_compon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Componentes" />
+        </activity>
+        <activity
+            android:name=".TiposResisActivity"
+            android:label="@string/btn3_resis">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResistenciaActivity" />
+        </activity>
+        <activity
+            android:name=".ComoLeerResistencia"
+            android:label="@string/btn2_resis">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResistenciaActivity" />
+        </activity>
+        <activity
+            android:name=".QueEsResisteciaActivity"
+            android:label="@string/btn1_resis">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResistenciaActivity" />
+        </activity>
+        <activity
+            android:name=".CapacitorActivity"
+            android:label="@string/btn2_compon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Componentes" />
+        </activity>
+        <activity
+            android:name=".QueEsCapActivity"
+            android:label="@string/btn1_cap">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CapacitorActivity" />
+        </activity>
+        <activity
+            android:name=".ComoMedirCapActivity"
+            android:label="@string/btn2_cap">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CapacitorActivity" />
+        </activity>
+        <activity
+            android:name=".TiposCapActivity"
+            android:label="@string/btn3_cap">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CapacitorActivity" />
+        </activity>
+        <activity
+            android:name=".TransistorActivity"
+            android:label="@string/btn3_compon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Componentes" />
+        </activity>
+        <activity
+            android:name=".QueEsTran"
+            android:label="@string/btn1_tran">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TransistorActivity" />
+        </activity>
+        <activity
+            android:name=".ComoFuncionaTran"
+            android:label="@string/btn2_tran">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TransistorActivity" />
+        </activity>
+        <activity
+            android:name=".TiposTranActivity"
+            android:label="@string/btn3_tran">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TransistorActivity" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

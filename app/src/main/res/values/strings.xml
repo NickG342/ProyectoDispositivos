@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aprende Circuitos</string>
+    <string name="titulo_menu">TEMAS</string>
+    <string name="btn1_menu">Componentes</string>
+    <string name="btn1_compon">Resistencia</string>
+    <string name="btn2_compon">Capacitor</string>
+    <string name="btn3_compon">Transistor</string>
+    <string name="btn1_resis">¿Qué es una resistencia?</string>
+    <string name="btn2_resis">¿Cómo leer una resistencia?</string>
+    <string name="btn3_resis">Tipos de resistencia.</string>
+    <string name="btn1_cap">¿Qué es un capacitor?</string>
+    <string name="btn2_cap">¿Cómo medir la capacitancia?</string>
+    <string name="btn3_cap">Tipos de capacitores.</string>
+    <string name="btn1_tran">¿Qué es un transistor?</string>
+    <string name="btn2_tran">¿Cómo funciona un transistor?</string>
+    <string name="btn3_tran">Tipos de transistores.</string>
+    <string name="f_rmulas">Fórmulas</string>
+    <string name="tutoriales_v_deos">Tutoriales/Vídeos</string>
+    <string name="login">Login</string>
+</resources>
