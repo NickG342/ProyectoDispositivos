@@ -17,6 +17,41 @@
     <string name="f_rmulas">Fórmulas</string>
     <string name="tutoriales_v_deos">Tutoriales/Vídeos</string>
     <string name="login">Login</string>4
+    <string name="que_resis_1">Se le denomina resistencia eléctrica a la oposición al flujo de corriente eléctrica a través de un conductor.\n
+        La simbología de la resistencia es:</string>
+    <string name="que_resis_2">La unidad de resistencia en el Sistema Internacional es el ohmio, que se representa con la letra griega omega (Ω)\n
+        En general todo material presenta una resistencia natural, la cual depende
+        de su estructura interna, las impurezas y composición atómica.</string>
+    <string name="tipos_resis_1">Los tipos de resistencias más utilizadas son:\n - Resistencias fijas: aglomeradas, de
+        película de carbón, de película metálica y bobinadas.</string>
+    <string name="tipos_resis_2">- Resistencias variables: bobinadas, de película.</string>
+    <string name="tipos_resis_3">- Resistencias dependientes o variables: LDR, VDR, PTC, NTC.</string>
+    <string name="tipos_resis_4">Los tipos de resistencias por su composición son: \n
+        Resistor de hilo bobinado.\n Fueron de los primeros tipos en fabricarse, y aún se utilizan cuando
+        se requieren potencias algo elevadas de disipación. Están constituidos por un hilo conductor bobinado
+        en forma de hélice o espiral (a modo de rosca de tornillo) sobre un sustrato cerámico. </string>
+    <string name="tipos_resis_5">Resistor de carbón prensado.\n Los resistores de este tipo son muy inestables
+        con la temperatura, tienen unas tolerancias de fabricación muy elevadas, en el mejor de los casos se consigue
+        un 10% de tolerancia, incluso su valor óhmico puede variar por el mero hecho de la soldadura, en el que se
+        somete a elevadas temperaturas al componente.</string>
+    <string name="tipos_resis_6">Resistores de película de carbón.\n Se utiliza un tubo cerámico como sustrato sobre el
+        que se deposita una película de carbón tal como se aprecia en la figura.</string>
+    <string name="tipos_resis_7">Resistores de película metálica.\n Este tipo de resistor es el que mayoritariamente se fabrica
+        hoy día, con unas características de ruido y estabilidad mejoradas con respecto a todas las anteriores. Tienen un coeficiente de
+        temperatura muy pequeño, del orden de 50 ppm/°C (partes por millón y grado Centígrado). También soportan mejor el paso del tiempo,
+        permaneciendo su valor en ohmios durante un mayor período de tiempo. Se fabrican este tipo de resistores de hasta 2 watts
+        de potencia, y con tolerancias del 1% como tipo estándar. </string>
+    <string name="tipos_resis_8">Resistores de película de óxido metálico.\n Son muy similares a las de película de carbón en cuanto a su
+        modo de fabricación, pero son más parecidas, eléctricamente hablando a las de película metálica. Se hacen igual que las de película
+        de carbón, pero sustituyendo el carbón por una fina capa de óxido metálico</string>
+    <string name="leer_resis_1">En una resistencia tenemos generalmente 4 líneas de colores, aunque podemos encontrar algunas que contenga
+        5 líneas (4 de colores y 1 que indica tolerancia) vamos a tomar la más general las de 4 líneas, las primeras 3 y dejamos aparte la
+        tolerancia que es plateada o dorada.\n La primera línea representa el dígito de las decenas.\n La segunda línea representa el dígito
+        de las unidades.\n El número así formado se multiplica por la potencia de 10 expresada por la tercera línea (multiplicador).</string>
+    <string name="leer_resis_2">Los dígitos dependen del color que se consigue de la tabla:</string>
+
+
+    <string name="leer_resis_"></string>
     <string name="como_funciona_transistor">El transistor consta de tres partes
         dopadas artificialmente (contaminadas con materiales específicos en cantidades
         específicas) que forman dos uniones bipolares: el emisor que emite portadores,
@@ -46,4 +81,5 @@
         Los transistores de efecto de campo son los que han permitido la integración a gran escala disponible hoy en día;
         para tener una idea aproximada pueden fabricarse varios cientos de miles de transistores interconectados, por
         centímetro cuadrado y en varias capas superpuestas.</string>
+
 </resources>
