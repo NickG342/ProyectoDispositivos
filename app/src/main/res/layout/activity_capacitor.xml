@@ -11,49 +11,55 @@
         android:id="@+id/btnQueEsCap"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="444dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn1_cap"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewCap" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewCap"
+        app:layout_constraintVertical_bias="0.75" />
 
     <Button
         android:id="@+id/btnTiposCap"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="116dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn3_cap"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnComoSeMideCap" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewCap"
+        app:layout_constraintVertical_bias="0.936" />
 
     <Button
         android:id="@+id/btnComoSeMideCap"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="288dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn2_cap"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnQueEsCap" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewCap"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textViewCap"
         android:layout_width="190dp"
         android:layout_height="91dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn2_compon"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"

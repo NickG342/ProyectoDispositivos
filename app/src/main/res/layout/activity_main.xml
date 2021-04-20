@@ -11,51 +11,57 @@
         android:id="@+id/btnVideos"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp"
         android:fontFamily="@font/rancho"
         android:text="@string/tutoriales_v_deos"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnComponentes" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTemas"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnFormulas"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp"
         android:fontFamily="@font/rancho"
         android:text="@string/f_rmulas"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTemas" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTemas"
+        app:layout_constraintVertical_bias="0.565" />
 
     <Button
         android:id="@+id/btnComponentes"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="432dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn1_menu"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFormulas" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTemas"
+        app:layout_constraintVertical_bias="0.2" />
 
     <TextView
         android:id="@+id/textViewTemas"
         android:layout_width="160dp"
         android:layout_height="77dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/rancho"
         android:text="@string/titulo_menu"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"

@@ -1,2 +1,6 @@
+include ':usercase'
+include ':framework'
+include ':domain'
+include ':data'
 include ':app'
 rootProject.name = "login"

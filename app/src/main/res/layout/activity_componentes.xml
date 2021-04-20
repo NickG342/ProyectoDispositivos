@@ -11,57 +11,66 @@
         android:id="@+id/btnResis"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn1_compon"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewComp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
 
     <Button
         android:id="@+id/btnCapacitor"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn2_compon"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnResis" />
+        app:layout_constraintTop_toBottomOf="@+id/btnResis"
+        app:layout_constraintVertical_bias="0.169" />
 
     <Button
         android:id="@+id/btnTransistor"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn3_compon"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCapacitor" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCapacitor"
+        app:layout_constraintVertical_bias="0.45" />
 
     <TextView
         android:id="@+id/textViewComp"
         android:layout_width="248dp"
         android:layout_height="76dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn1_menu"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="@color/letter"
         android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnResis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
