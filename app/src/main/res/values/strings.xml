@@ -16,5 +16,34 @@
     <string name="btn3_tran">Tipos de transistores.</string>
     <string name="f_rmulas">Fórmulas</string>
     <string name="tutoriales_v_deos">Tutoriales/Vídeos</string>
-    <string name="login">Login</string>
+    <string name="login">Login</string>4
+    <string name="como_funciona_transistor">El transistor consta de tres partes
+        dopadas artificialmente (contaminadas con materiales específicos en cantidades
+        específicas) que forman dos uniones bipolares: el emisor que emite portadores,
+        el colector que los recibe o recolecta y la tercera, que está intercalada entre
+        las dos primeras, modula el paso de dichos portadores (base).A diferencia de las
+        válvulas, el transistor es un dispositivo controlado por corriente y del que se
+        obtiene corriente amplificada. En el diseño de circuitos a los transistores se les
+        considera un elemento activo,32​ a diferencia de los resistores, condensadores e
+        inductores que son elementos pasivos.\n
+        De manera simplificada, la corriente que circula por el colector es función amplificada
+        de la que se inyecta en el emisor, pero el transistor solo gradúa la corriente que circula
+        a través de sí mismo, si desde una fuente de corriente continua se alimenta la base para que
+        circule la carga por el colector, según el tipo de circuito que se utilice. El factor de amplificación
+        o ganancia logrado entre corriente de colector y corriente de base, se denomina Beta del transistor
+        . Otros parámetros a tener en cuenta y que son particulares de cada tipo de transistor son: Tensiones
+        de ruptura de Colector Emisor, de Base Emisor, de Colector Base, Potencia Máxima, disipación de calor,
+        frecuencia de trabajo, y varias tablas donde se grafican los distintos parámetros tales como corriente
+        de base, tensión Colector Emisor, tensión Base Emisor, corriente de Emisor, etc. Los tres tipos de esquemas
+        (configuraciones) básicos para utilización analógica de los transistores son emisor común, colector común y base común.\n
+        Modelos posteriores al transistor descrito, el transistor bipolar (transistores FET, MOSFET, JFET, CMOS, VMOS, etc.)
+        no utiliza la corriente que se inyecta en el terminal de base para modular la corriente de emisor o colector,
+        sino la tensión presente en el terminal de puerta y gradúa la conductancia del canal entre los terminales de Fuente
+        y Drenaje. Cuando la conductancia es nula y el canal se encuentra estrangulado, por efecto de la tensión aplicada
+        entre Compuerta y Fuente, es el campo eléctrico presente en el canal el responsable de impulsar los electrones desde
+        la fuente al drenaje. De este modo, la corriente de salida en la carga conectada al Drenaje (D) será función
+        amplificada de la tensión presente entre la compuerta y la fuente, de manera análoga al funcionamiento del triodo.\n
+        Los transistores de efecto de campo son los que han permitido la integración a gran escala disponible hoy en día;
+        para tener una idea aproximada pueden fabricarse varios cientos de miles de transistores interconectados, por
+        centímetro cuadrado y en varias capas superpuestas.</string>
 </resources>
