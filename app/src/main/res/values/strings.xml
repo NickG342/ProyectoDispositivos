@@ -69,37 +69,22 @@
         lámina de plástico y el otro es el condensador electrolítico no polarizado.</string>
     <string name="tipo_cap_6">6. Condensador cerámico: Los tipos de capacitores cerámicos son los condensadores y utilizan el material
         cerámico como dieléctrico.</string>
-
-    <string name="tipo_cap_"></string>
-    <string name="como_funciona_transistor">El transistor consta de tres partes
-        dopadas artificialmente (contaminadas con materiales específicos en cantidades
-        específicas) que forman dos uniones bipolares: el emisor que emite portadores,
-        el colector que los recibe o recolecta y la tercera, que está intercalada entre
-        las dos primeras, modula el paso de dichos portadores (base).A diferencia de las
-        válvulas, el transistor es un dispositivo controlado por corriente y del que se
-        obtiene corriente amplificada. En el diseño de circuitos a los transistores se les
-        considera un elemento activo,32​ a diferencia de los resistores, condensadores e
-        inductores que son elementos pasivos.\n
-        De manera simplificada, la corriente que circula por el colector es función amplificada
-        de la que se inyecta en el emisor, pero el transistor solo gradúa la corriente que circula
-        a través de sí mismo, si desde una fuente de corriente continua se alimenta la base para que
-        circule la carga por el colector, según el tipo de circuito que se utilice. El factor de amplificación
-        o ganancia logrado entre corriente de colector y corriente de base, se denomina Beta del transistor
-        . Otros parámetros a tener en cuenta y que son particulares de cada tipo de transistor son: Tensiones
-        de ruptura de Colector Emisor, de Base Emisor, de Colector Base, Potencia Máxima, disipación de calor,
-        frecuencia de trabajo, y varias tablas donde se grafican los distintos parámetros tales como corriente
-        de base, tensión Colector Emisor, tensión Base Emisor, corriente de Emisor, etc. Los tres tipos de esquemas
-        (configuraciones) básicos para utilización analógica de los transistores son emisor común, colector común y base común.\n
-        Modelos posteriores al transistor descrito, el transistor bipolar (transistores FET, MOSFET, JFET, CMOS, VMOS, etc.)
-        no utiliza la corriente que se inyecta en el terminal de base para modular la corriente de emisor o colector,
-        sino la tensión presente en el terminal de puerta y gradúa la conductancia del canal entre los terminales de Fuente
-        y Drenaje. Cuando la conductancia es nula y el canal se encuentra estrangulado, por efecto de la tensión aplicada
-        entre Compuerta y Fuente, es el campo eléctrico presente en el canal el responsable de impulsar los electrones desde
-        la fuente al drenaje. De este modo, la corriente de salida en la carga conectada al Drenaje (D) será función
-        amplificada de la tensión presente entre la compuerta y la fuente, de manera análoga al funcionamiento del triodo.\n
-        Los transistores de efecto de campo son los que han permitido la integración a gran escala disponible hoy en día;
-        para tener una idea aproximada pueden fabricarse varios cientos de miles de transistores interconectados, por
-        centímetro cuadrado y en varias capas superpuestas.</string>
+    <string name="que_tran_1">Es un tipo de dispositivo electrónico semiconductor, capaz de modificar una señal eléctrica de salida como
+        respuesta a una de entrada, sirviendo como amplificador, conmutador, oscilador o rectificador de la misma.</string>
+    <string name="como_funciona_transistor">Los transistores operan sobre un flujo de corriente, operando como amplificadores
+        (recibiendo una señal débil y generando una fuerte) o como interruptores (recibiendo una señal y cortándole el paso) de
+        la misma.\n Esto ocurre dependiendo de cuál de las tres posiciones ocupe un transistor en un determinado momento, y que son:\n En activa.
+        Se permite el paso de un nivel de corriente variable (más o menos corriente).\n En corte. No deja pasar la corriente eléctrica.\n En saturación.
+        Deja pasar todo el caudal de la corriente eléctrica.</string>
+    <string name="tipo_tran_1">Los  tipos de transistores son:\n Transistor de contacto puntual. También llamado “de punta de contacto”, es el tipo más antiguo de transistor
+        y opera sobre una base de germanio. Fue un invento revolucionario, a pesar de que era difícil de fabricar, frágil y ruidoso. Hoy
+        en día no se le emplea más.</string>
+    <string name="tipo_tran_2">Transistor de unión bipolar. Fabricado sobre un cristal de material semiconductor, que se contamina de manera selectiva y
+        controlada con átomos de arsénico o fósforo (donantes de electrones), para generar así las regiones de base, emisor y colector</string>
+    <string name="tipo_tran_3">Transistor de efecto de campo. Se emplea en este caso una barra de silicio o algún otro semiconductor semejante,
+        en cuyos terminales se establecen terminales óhmicos, operando así por tensión positiva.</string>
+    <string name="tipo_tran_4">Fototransistores. Se llaman así a los transistores sensibles a la luz, en espectros cercanos a la visible.
+        De modo que se pueden operar por medio de ondas electromagnéticas a distancia.</string>
     <string name="e_mail">E-mail</string>
     <string name="registrar">Registrar</string>
     <string name="acceder">Acceder</string>
