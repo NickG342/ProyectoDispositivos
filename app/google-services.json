@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513725340284",
+    "project_id": "circuitos-8160c",
+    "storage_bucket": "circuitos-8160c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513725340284:android:2943ced5052361e13887f9",
+        "android_client_info": {
+          "package_name": "ucb.bo.edu.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513725340284-6vsqvtmdrvcuo0nd1jngqctjm0uno9ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfNfSQi0Gq6iqn6jMjeMgtyA1_zNXTuSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513725340284-6vsqvtmdrvcuo0nd1jngqctjm0uno9ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,8 @@
 package ucb.bo.edu.login
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +14,14 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Componentes::class.java)
             startActivity((intent))
         }
+
+        btnUSer.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity((intent))
+        }
     }
+
+
 
 }
 
