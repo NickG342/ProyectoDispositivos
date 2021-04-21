@@ -11,65 +11,59 @@
         android:id="@+id/btnTiposTran"
         android:layout_width="228dp"
         android:layout_height="104dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn3_tran"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnComoFuncionaTran"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btnComoFuncionaTran" />
 
     <Button
         android:id="@+id/btnComoFuncionaTran"
         android:layout_width="228dp"
         android:layout_height="104dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn2_tran"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnQueEsTran"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintTop_toBottomOf="@+id/btnQueEsTran" />
 
     <Button
         android:id="@+id/btnQueEsTran"
         android:layout_width="228dp"
         android:layout_height="104dp"
+        android:layout_marginTop="146dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn1_tran"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:backgroundTint="@color/button"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.326" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewTemas3"
         android:layout_width="199dp"
         android:layout_height="94dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/rancho"
         android:text="@string/btn3_compon"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="@color/letter"
         android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnQueEsTran"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
