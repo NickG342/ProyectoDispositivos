@@ -49,9 +49,28 @@
         tolerancia que es plateada o dorada.\n La primera línea representa el dígito de las decenas.\n La segunda línea representa el dígito
         de las unidades.\n El número así formado se multiplica por la potencia de 10 expresada por la tercera línea (multiplicador).</string>
     <string name="leer_resis_2">Los dígitos dependen del color que se consigue de la tabla:</string>
+    <string name="que_cap_1">El capacitor es un dispositivo eléctrico que permite almacenar energía en forma de campo eléctrico. Es decir,
+        es un dispositivo que almacena cargas en reposo o estáticas.</string>
+    <string name="que_cap_2">Un capacitor es un componente pasivo ya que no se encarga de la excitación eléctrica, sino que sirve para conectar
+        componentes activos y conservar la energía. Esto le permite servir de sustento a un campo eléctrico</string>
+    <string name="Medir_cap">1. Use el multímetro digital (DMM) para asegurarse de que NO haya energía en el circuito.\n 2. Inspeccione visualmente
+        el capacitor.\n 3. Gire el selector al modo Medición de capacitancia.\n 4. Para una medición correcta, se debe retirar y descargar el
+        capacitor del circuito.\n 5. Conecte los cables de prueba a las terminales del capacitor. \n 6. Lea la medición que se muestra. Si el valor de
+        capacitancia se encuentra dentro del rango de medición, el multímetro mostrará el valor del capacitor.</string>
+    <string name="tipo_cap_1">1. Capacitor electrolítico: En general, los capacitores electrolíticos se usan cuando se requieren los valores de
+        condensador grandes.</string>
+    <string name="tipo_cap_2">2. Condensador de mica: Estos tipos de capacitores son un grupo de minerales naturales y los capacitores de mica
+        plateada usan el dieléctrico. Hay dos tipos de condensadores de mica que son condensadores sujetos y condensador de mica plateada.</string>
+    <string name="tipo_cap_3">3. Condensador de papel: La construcción del condensador de papel está entre las dos hojas de papel de aluminio y están
+        separadas del papel, o papel aceitado y encerado fino.</string>
+    <string name="tipo_cap_4">4. Condensador de película: Los tipos de capacitores de película también son condensadores y utilizan un plástico
+        delgado como el dieléctrico.</string>
+    <string name="tipo_cap_5">5. Condensadores no polarizados: Los condensadores no polarizados se clasifican en dos tipos de capacitores de
+        lámina de plástico y el otro es el condensador electrolítico no polarizado.</string>
+    <string name="tipo_cap_6">6. Condensador cerámico: Los tipos de capacitores cerámicos son los condensadores y utilizan el material
+        cerámico como dieléctrico.</string>
 
-
-    <string name="leer_resis_"></string>
+    <string name="tipo_cap_"></string>
     <string name="como_funciona_transistor">El transistor consta de tres partes
         dopadas artificialmente (contaminadas con materiales específicos en cantidades
         específicas) que forman dos uniones bipolares: el emisor que emite portadores,

@@ -7,13 +7,100 @@
     android:background="@color/primaryColor"
     tools:context=".TiposCapActivity">
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn3_cap"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_cap_1"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/TipoCap1"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_cap_2"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/TipoCap2"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_cap_3"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/TipoCap3"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_cap_4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/TipoCap4"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_cap_5"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/TipoCap5"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_cap_6"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/TipoCap6"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
