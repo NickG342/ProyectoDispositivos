@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ucb.bo.edu.login">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".AuthActivity"
+
+        <activity
+            android:name=".AuthActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -110,10 +113,81 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".TransistorActivity" />
         </activity>
+        <activity
+            android:name=".Ley_ohm"
+            android:label="@string/btn_leyOhm">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas" />
+        </activity>
+        <activity
+            android:name=".Formulas"
+            android:label="@string/f_rmulas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Capacitancia"
+            android:label="@string/btn_capacitancia">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas" />
+        </activity>
+        <activity
+            android:name=".FetFija"
+            android:label="@string/p_fija">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FET" />
+        </activity>
+        <activity
+            android:name=".FET"
+            android:label="@string/btn_transistor_fet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".bjtOfet" />
+        </activity>
+        <activity
+            android:name=".BjtDiv"
+            android:label="@string/p_vol">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BJT" />
+        </activity>
+        <activity
+            android:name=".BjtEmisor"
+            android:label="@string/p_em">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BJT" />
+        </activity>
+        <activity
+            android:name=".BjtFija"
+            android:label="@string/p_fija">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BJT" />
+        </activity>
+        <activity
+            android:name=".bjtOfet"
+            android:label="@string/btn3_compons">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Formulas" />
+        </activity>
+        <activity
+            android:name=".BJT"
+            android:label="@string/btn_transistor_bjt">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".bjtOfet" />
+        </activity>
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".FetDiv"
+            android:label="@string/p_vol"><meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".FET" /></activity>
     </application>
 
 </manifest>

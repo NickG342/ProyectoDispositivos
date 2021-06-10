@@ -5,6 +5,7 @@
     <string name="btn1_compon">Resistencia</string>
     <string name="btn2_compon">Capacitor</string>
     <string name="btn3_compon">Transistor</string>
+    <string name="btn3_compons">Transistores</string>
     <string name="btn1_resis">¿Qué es una resistencia?</string>
     <string name="btn2_resis">¿Cómo leer una resistencia?</string>
     <string name="btn3_resis">Tipos de resistencia.</string>
@@ -93,6 +94,37 @@
     <string name="prefs_file">ucb.bo.edu.login.PREFERENCE_FILE_KEY</string>
     <string name="cerrar_sesi_n">Cerrar sesión</string>
     <string name="usuario">Usuario</string>
+    <string name="btn_leyOhm">Ley de Ohm</string>
+    <string name="leyOhm">La ley de ohm stablece que la diferencia de potencial V que aplicamos entre los extremos de un conductor
+        determinado es directamente proporcional a la intensidad de la corriente I que circula por el citado conductor.
+        Ohm completó la ley introduciendo la noción de resistencia eléctrica R; que es el factor de proporcionalidad que
+        aparece en la relación entre V e I</string>
+    <string name="btn_capacitancia">Capacitancia</string>
+    <string name="capacitancia">Dos conductores, aislados eléctricamente uno del otro que tienen
+una diferencia de potencial V entre ellos y que tienen cargas iguales y opuestas. Una combinación de este tipo se denomina
+capacitor o condensador. \nLa capacitancia o capacidad de un capacitor se define como la razón entre la magnitud de la carga en
+        cualquiera de los conductores y la magnitud de la diferencia de potencial entre ellos</string>
+    <string name="btn_transistor_bjt">Transistor BJT</string>
+    <string name="btn_transistor_fet">Transistor FET</string>
+    <string name="p_fija">Polarización fija</string>
+    <string name="p_em">Polarización de emisor</string>
+    <string name="p_vol">Polarización divisor de voltaje</string>
+    <string name="fija">La polarización fija es la más sencilla y rápida para realizar, pero también la más inestable ante las variaciones
+        de beta, por tanto también la menos usada. La polarización fija solo se usa en la configuración emisor común, ya que en la configuración
+        base común cortocircuita la entrada, y en la configuración colector común cortocircuita la salida.</string>
+    <string name="emisor">La polarización estabilizado en emisor presenta una mejor estabilidad que la polarización fija, pero no mejor que la
+        polarización por divisor de voltaje y que la polarización por realimentación de colector. Además se puede usar en todas las configuraciones
+        del transistor bjt, emisor común, base común y colector común</string>
+    <string name="divisor">La polarización por divisor de voltaje es la polarización más estable respecto al punto de trabajo Q. Se puede usar en todas
+        las configuraciones del transistor bjt, emisor común, base común, y colector común.</string>
+    <string name="FETFija">Conocida como configuración de polarización fija, es una de las pocas configuraciones de FET
+de un modo directo tanto con un método matemático como con un gráfico. \nEl hecho de que la terminal negativa de la batería esté conectada directamente al
+        potencial positivo definido de VGS deja ver con claridad que la polaridad de VGS es directamente opuesta a la de VGG.</string>
+    <string name="FETEmisor">hola</string>
+    <string name="FETDiv">La construcción básica es exactamente la misma, pero el análisis de cada una es muy diferente. IG=0 A para amplificadores
+        con FET, pero la magnitud de IB para amplificadores con BJT en emisor común puede afectar los niveles de cd de la corriente y voltaje tanto
+        en los circuitos de entrada como en los de salida. Recuerde que IB vincula los circuitos de entrada y salida para la configuración del divisor
+        de voltaje del BJT, mientras que VGS hace lo mismo para la configuración del FET. </string>
 
 
 </resources>
