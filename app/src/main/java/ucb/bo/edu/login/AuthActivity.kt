@@ -41,13 +41,12 @@ class AuthActivity : AppCompatActivity(){
     }
 
     private fun setup(){
-        logOutBtn.setOnClickListener {
+        registerBtn.setOnClickListener {
             if (emailText.text.isNotEmpty() && providerText.text.isNotEmpty()){
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(emailText.text.toString(),
                     providerText.text.toString()).addOnCompleteListener{
                         if (it.isSuccessful){
-                            val intent = Intent(this, MainActivity::class.java)
-                            startActivity((intent))
+                            showMain(it.result?.user?.email ?:"", ProviderType.BASIC)
                         }else{
                             showAlert()
                         }
@@ -60,8 +59,7 @@ class AuthActivity : AppCompatActivity(){
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(emailText.text.toString(),
                     providerText.text.toString()).addOnCompleteListener{
                     if (it.isSuccessful){
-                        val intent = Intent(this, MainActivity::class.java)
-                        startActivity((intent))
+                        showMain(it.result?.user?.email ?:"", ProviderType.BASIC)
                     }else{
                         showAlert()
                     }
@@ -86,13 +84,14 @@ class AuthActivity : AppCompatActivity(){
         dialog.show()
     }
 
-    private fun showHome(email: String, provider: ProviderType){
-        val homeIntent = Intent(this, MainActivity::class.java).apply {
-            putExtra("email",email)
-            putExtra("provider",provider.name)
+    private fun showMain(email: String, provider: ProviderType){
+        val mainIntent = Intent(this, MainActivity::class.java).apply {
+            putExtra("email", email)
+            putExtra("provider", provider.name)
         }
-        startActivity(homeIntent)
+        startActivity(mainIntent)
     }
+
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?){
         super.onActivityResult(requestCode, resultCode, data)
@@ -106,8 +105,7 @@ class AuthActivity : AppCompatActivity(){
                     val credential = GoogleAuthProvider.getCredential(account.idToken, null)
                     FirebaseAuth.getInstance().signInWithCredential(credential).addOnCompleteListener{
                         if (it.isSuccessful){
-                            val intent = Intent(this, MainActivity::class.java)
-                            startActivity((intent))
+                            showMain(account.email ?:"", ProviderType.GOOGLE)
                         }else{
                             showAlert()
                         }

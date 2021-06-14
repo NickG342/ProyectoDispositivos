@@ -188,6 +188,13 @@
             android:label="@string/p_vol"><meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".FET" /></activity>
+
+        <activity android:name=".Tutoriales"
+            android:label="@string/tutoriales_v_deos">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

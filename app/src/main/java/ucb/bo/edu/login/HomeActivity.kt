@@ -4,8 +4,6 @@ import android.content.Context
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.activity_auth.*
-import kotlinx.android.synthetic.main.activity_auth.logOutBtn
 import kotlinx.android.synthetic.main.activity_home.*
 
 enum class ProviderType{
@@ -14,7 +12,6 @@ enum class ProviderType{
 }
 
 class HomeActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)

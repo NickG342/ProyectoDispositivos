@@ -55,7 +55,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/logOutBtn"
+                android:id="@+id/registerBtn"
                 android:fontFamily="@font/rancho"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="36sp"
